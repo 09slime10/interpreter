@@ -299,6 +299,17 @@ int main()
 		else if (strncmp(buf1, "int", 3) == 0) //Œ^”»’èF®”
 		{
 			scanf(" %[^\n]%*c", &buf2);
+
+			sp1 = startp;
+			while (sp1 != NULL)
+			{
+				if (sp1->next == NULL)
+				{
+					break;
+				}
+				sp1 = sp1->next;
+			}
+
 			if (cnt1 == 0)
 			{
 				cnt1++;
@@ -370,6 +381,17 @@ int main()
 		else if (strncmp(buf1, "float", 5) == 0) //Œ^”»’èF’P¸“xŽÀ”
 		{
 			scanf(" %[^\n]%*c", &buf2);
+
+			sp1 = startp;
+			while (sp1 != NULL)
+			{
+				if (sp1->next == NULL)
+				{
+					break;
+				}
+				sp1 = sp1->next;
+			}
+
 			if (cnt1 == 0)
 			{
 				cnt1++;
@@ -441,6 +463,17 @@ int main()
 		else if (strncmp(buf1, "double", 6) == 0) //Œ^”»’èF”{¸“xŽÀ”
 		{
 			scanf(" %[^\n]%*c", &buf2);
+
+			sp1 = startp;
+			while (sp1 != NULL)
+			{
+				if (sp1->next == NULL)
+				{
+					break;
+				}
+				sp1 = sp1->next;
+			}
+
 			if (cnt1 == 0)
 			{
 				cnt1++;
@@ -512,6 +545,17 @@ int main()
 		else if (strncmp(buf1, "char", 4) == 0) //Œ^”»’èF•¶Žš
 		{
 			scanf(" %[^\n]%*c", &buf2);
+
+			sp1 = startp;
+			while (sp1 != NULL)
+			{
+				if (sp1->next == NULL)
+				{
+					break;
+				}
+				sp1 = sp1->next;
+			}
+
 			if (cnt1 == 0)
 			{
 				cnt1++;
